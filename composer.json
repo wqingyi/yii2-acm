@@ -1,0 +1,19 @@
+{
+	"name": "yii2-acm",
+	"description": "acm yii2 extension",
+	"homePage": "https://www.aliyun.com/product/acm",
+	"type": "library",
+	"authors": {
+		"name": "kaka",
+		"homePage": "https://github.com/wqingyi/yii2-acm"
+	},
+	"require": {
+		"php": ">=7.2",
+		"yiisoft/yii2": "~2"
+	},
+	"autoload": {
+		"psr-4": {
+			"kaka\\aliyun\\": "src/Aliyun/ACM"
+		}
+	}
+}
